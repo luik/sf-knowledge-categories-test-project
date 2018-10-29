@@ -6,12 +6,7 @@
                 "referenceId": "Knowledge__kavRef1"
             },
             "Title": "Article3",
-            "UrlName": "Article3",
-            "IsVisibleInApp": true,
-            "IsVisibleInPkb": false,
-            "IsVisibleInCsp": false,
-            "IsVisibleInPrm": false,
-            "PublishStatus": "Draft"
+            "UrlName": "Article3"
         },
         {
             "attributes": {
@@ -20,11 +15,7 @@
             },
             "Title": "Article1",
             "UrlName": "Article1",
-            "IsVisibleInApp": true,
-            "IsVisibleInPkb": false,
-            "IsVisibleInCsp": false,
-            "IsVisibleInPrm": false,
-            "PublishStatus": "Draft"
+            "IsVisibleInApp": true
         }
     ]
 }
