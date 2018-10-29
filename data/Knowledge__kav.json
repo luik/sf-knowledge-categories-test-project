@@ -1,0 +1,30 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Knowledge__kav",
+                "referenceId": "Knowledge__kavRef1"
+            },
+            "Title": "Article3",
+            "UrlName": "Article3",
+            "IsVisibleInApp": true,
+            "IsVisibleInPkb": false,
+            "IsVisibleInCsp": false,
+            "IsVisibleInPrm": false,
+            "PublishStatus": "Draft"
+        },
+        {
+            "attributes": {
+                "type": "Knowledge__kav",
+                "referenceId": "Knowledge__kavRef2"
+            },
+            "Title": "Article1",
+            "UrlName": "Article1",
+            "IsVisibleInApp": true,
+            "IsVisibleInPkb": false,
+            "IsVisibleInCsp": false,
+            "IsVisibleInPrm": false,
+            "PublishStatus": "Draft"
+        }
+    ]
+}

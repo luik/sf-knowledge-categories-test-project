@@ -1,14 +1,17 @@
 # SFDX  App
 
-## Dev, Build and Test
+```
+sfdx force:data:soql:query --query "SELECT Title, UrlName, IsVisibleInApp, IsVisibleInPkb, IsVisibleInCsp, IsVisibleInPrm, Body__c, PublishStatus FROM Knowledge__kav WHERE PublishStatus='Draft'"
 
+sfdx force:data:soql:query --query "SELECT Title, UrlName, IsVisibleInApp, IsVisibleInPkb, IsVisibleInCsp, IsVisibleInPrm, Body__c, PublishStatus FROM Knowledge__kav WHERE PublishStatus='Online'"
 
-## Resources
+---------------------------------------
 
+sfdx force:data:tree:export --query "SELECT Title, UrlName, IsVisibleInApp, IsVisibleInPkb, IsVisibleInCsp, IsVisibleInPrm, Body__c, PublishStatus FROM Knowledge__kav WHERE PublishStatus='Draft'" -d data
 
-## Description of Files and Directories
+---------------------------------------
 
+sfdx force:data:tree:import -f data/Knowledge__kav.json
 
-## Issues
-
+```
 
