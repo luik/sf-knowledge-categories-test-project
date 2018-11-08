@@ -2,7 +2,9 @@
 
 ## To create a Scratch Org use
 
-`sfdx force:org:create -f config/project-scratch-def.json -s -v [DEVHUB-USER] -d 1`
+- `sfdx force:org:create -f config/project-scratch-def.json -s -v [DEVHUB-USER] -d 1`
+- Activate `Knowledge User`
+- `sfdx force:source:push`
 
 
 ## Sample commands
